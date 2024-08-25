@@ -1,0 +1,601 @@
+body {
+    font-family: 'unbounded', sans-serif;
+}
+
+.container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    overflow-x: hidden;
+}
+
+.menu {
+    height: 639px;
+    width: 28%;
+    border: 1px solid transparent;
+    position: fixed;
+
+    background-color: rgb(241, 173, 71);
+    left: 0;
+
+}
+
+.m1 {
+    height: 35%;
+    width: 100%;
+    border: 1px solid transparent;
+    align-content: center;
+    text-align: center;
+}
+
+.m2 {
+    height: 65%;
+    width: 100%;
+    border: 1px solid transparent;
+    text-align: center;
+    align-content: center;
+}
+
+.m2 h1 {
+    text-transform: uppercase;
+    /* font-family: 'poppins',sans-serif; */
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.m2 h1:hover {
+    color: white;
+}
+
+.body {
+    width: 100%;
+    border: 1px solid transparent;
+    margin-left: 10px;
+    margin-top: 0;
+
+}
+
+.img img {
+    height: 640px;
+    width: 97%;
+
+
+
+}
+
+summary {
+    display: none
+}
+
+summary {
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid rgb(241, 173, 71);
+    width: 40px;
+    text-align: center;
+    background-color: rgb(241, 173, 71);
+    font-size: 23px;
+    align-content: center;
+    color: white;
+    margin-top: 30px;
+
+    /* margin-right: 80px;
+   margin-left: 630px; */
+}
+details{
+    z-index: 1;
+}
+details ol h1:hover {
+    color: black;
+}
+
+.m2 h1:target {
+    color: white;
+}
+
+/* .body{
+    font-family: 'poppins',sans-serif;
+} */
+.img1 {
+    height: 640px;
+    width: 75%;
+    margin-left: 27.3%;
+    /* background-color: red,green;
+    background-image: url(client-doing-hair-cut-barber-shop-salon.jpg);
+    background-size: cover;
+    /* background-image:linear-gradient(to right,rgb(187, 123, 63)30%,rgb(29, 250, 128)); */
+    /* background-image: linear-gradient(90deg,rgb(253,187,45)0%,rgb(34,193,195)100%); */
+    background: linear-gradient(to right, rgb(253, 187, 45)20%, rgb(123, 226, 123), rgb(8, 224, 228)70%),
+        url(client-doing-hair-cut-barber-shop-salon.jpg);
+    background-size: cover;
+    background-blend-mode: soft-light;
+    opacity: 0.8;
+    box-shadow: 0px 0px -20em orange;
+    display: flex;
+    overflow-x: hidden;
+    position: sticky;
+}
+
+.i1 {
+    height: 300px;
+    width: 50%;
+    border: 1px solid transparent;
+    /* position: absolute; */
+    margin-top: 10%;
+    margin-left: 50px;
+}
+
+.i1 h1 {
+    color: white;
+    font-size: 70px;
+    margin-bottom: 0px;
+}
+
+.i1 p {
+    font-size: 20px;
+}
+
+.i1 .btn {
+    display: flex;
+}
+
+.btn p {
+    height: 40px;
+    width: 140px;
+    border: 1px solid;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+
+    margin-right: 20px;
+}
+
+.i1 .btn p:hover {
+    background-color: rgb(247, 247, 10);
+    border-color: yellow;
+    cursor: pointer;
+}
+
+.i1 .btn .b2 p {
+    background-color: rgb(223, 44, 44);
+    border-color: brown;
+    color: white;
+
+
+}
+
+.i1 .btn .b2 p:hover {
+    background-color: rgb(247, 247, 10);
+    border-color: yellow;
+    cursor: pointer;
+}
+
+.b1 p {
+    color: white;
+}
+
+.i2 {
+    height: 300px;
+    width: 340px;
+    border: 8px solid rgb(241, 173, 71);
+    border-radius: 405px;
+    align-content: center;
+    margin-right: 0px;
+    margin-left: 670px;
+    /* margin-top: 370px; */
+    text-align: left;
+
+}
+
+.i2 h1 {
+    margin-left: 50px;
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.i2 .btn p {
+    margin-left: 70px;
+    border: none;
+    width: 150px;
+    cursor: pointer;
+}
+
+.i2 .btn p:hover {
+    background-color: rgb(223, 44, 44);
+}
+
+.i3 {
+    height: 100px;
+    width: 100px;
+    border: 8px solid rgb(241, 173, 71);
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: -100px;
+    margin-bottom: 20px;
+    background-image: url(vintage-chair-barbershop.jpg);
+    background-size: cover;
+}
+
+.i2 .btn p {
+    background-color: rgb(241, 173, 71);
+    color: white;
+
+
+}
+
+details {
+    display: none;
+}
+
+@media(max-width:1075px) {
+    .i2 {
+        margin-left: 440px;
+        width: 300px;
+    }
+}
+
+@media(max-width:1023px) {
+    .i2 {
+        margin-left: 400px;
+
+    }
+}
+
+@media(max-width:991px) {
+    .i2 {
+        display: none;
+    }
+
+    .i1 {
+        width: 130%;
+        margin-top: 150px;
+    }
+
+    .m1 {
+        height: 25%;
+    }
+
+    .m2 h1 {
+        font-size: 28px;
+    }
+
+}
+
+@media(max-width:767px) {
+    .menu {
+        display: none;
+    }
+
+    summary {
+        display: block;
+        margin-left: 90%;
+    }
+
+    details {
+        position: fixed;
+        height: 100px;
+        width: 90%;
+        border: 1px solid transparent;
+        display: block;
+
+    }
+
+    details ol {
+        height: 350px;
+        width: 100%;
+        background-color: rgb(241, 173, 71);
+        color: white;
+        margin-top: -75px;
+        padding-top: 40px;
+
+        /* padding-left: 40%; */
+
+    }
+
+    details ol h1 {
+        align-content: center;
+        margin-left: 30%;
+    }
+
+    .img1 {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .i1 h1 {
+        font-size: 50px;
+    }
+
+    .i1 {
+        width: 170%;
+    }
+}
+
+@media(max-width:430px) {
+    .i1 {
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    details {
+        width: 80%;
+    }
+
+    details ol {
+        width: 130%;
+    }
+
+    details ol h1 {
+        margin-left: 20px;
+    }
+}
+
+@media(max-width:360px) {
+    .i1 .btn {
+        display: grid;
+    }
+
+    .i1 .b2 {
+        margin-top: -20px;
+    }
+
+}
+.code{
+    height: 15px;
+    width: 100%;
+    border: 1px solid transparent;
+    background-color: rgb(236, 183, 103);
+}
+.img2 {
+    height: 340px;
+    width: 64%;
+    margin-left: 31%;
+    border: 1px solid transparent;
+}
+.img2 h1{
+    font-size: 60px;
+    margin-bottom: 0px;
+    margin-top: 80px;
+}
+.img2 p{
+    font-size: 25px;
+    line-height: 35px;
+    color: rgb(114, 114, 146);
+}
+.img3 {
+    height: 440px;
+    width: 64%;
+    margin-left: 31%;
+    border: 1px solid transparent;
+}
+.img3 h1{
+    font-size: 35px;
+    color: rgb(167, 38, 38);
+}
+.o{
+    display: flex;
+}
+.u{
+    height: 250px;
+    width: 350px;
+    border: 1px solid transparent;
+    margin-right: 60px;
+    background-color: rgb(236, 183, 103);
+    border-radius: 20px;
+    margin-top: 50px;
+}
+.our1{
+    height: 250px;
+    width: 340px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    rotate: 11deg;
+    background-image: url(portrait-male-hairdresser-with-scissors.jpg);
+    background-size: cover;
+}
+.our2{
+    height: 250px;
+    width: 340px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    rotate: 11deg;
+    background-image: url(portrait-mid-adult-bearded-male-barber-with-folded-arms.jpg);
+    background-size: cover;
+}
+.u1{
+    height: 60px;
+    width: 80%;
+    border: 1px solid transparent;
+    border-radius: 35px;
+    rotate: -11deg;
+    background-color: white;
+    margin-top: 180px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.o p{
+    color: rgb(114, 114, 146);
+    font-size: 24px;
+   
+}
+.u2 i{
+    height: 40px;
+    width: 40px;
+    color: white;
+    border-radius: 50%;
+    background-color: rgb(167, 38, 38);
+    align-content: center;
+    font-size: 18px;
+    text-align: center;
+    margin-right: 5px;
+   
+}
+@media(max-width:1075px){
+    .u{
+        width: 250px;
+    }
+    .our1{
+        width: 250px;
+    }
+    .our2{
+        width: 250px;
+    }
+    .o p{
+        font-size: 20px;
+    }
+    .u2 i{
+        height: 30px;
+        width: 30px;
+        font-size: 15px;
+    }
+    .img2 p{
+        font-size: 20px;
+    }
+    .img2 h1{
+        font-size: 50px;
+    }
+}
+@media(max-width:940px){
+.o{
+    display: grid;
+}
+.img3{
+    height: 750px;
+}
+.u{
+    width: 350px;
+}
+.our1{
+    width: 350px;
+}
+.our2{
+    width: 350px;
+}
+}
+
+.story{
+    height: 500px;
+    width: 73%;
+    margin-left: 27%;
+    border: 1px solid transparent;
+    background-image: url(barber-customer-giving-high-five.jpg);
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+}
+.s{
+    margin-left: 27%;
+    height: 300px;
+    width: 73%;
+    text-align: center;
+    border: 1px solid transparent;
+}
+.s h1{
+    font-size: 60px;
+    color: rgb(167, 38, 38);
+    margin-bottom: 0px;
+}
+.s p{
+    font-size: 25px;
+    color: white;
+}
+.s .btn{
+    margin-left: 30%;
+}
+.s .btn p{
+    background-color: rgb(241, 173, 71);
+    color: rgb(17, 17, 53);
+    width: 300px;
+    height: 45px;
+    font-size: 20px;
+}
+.services{
+    height: 400px;
+    width: 77%;
+    margin-left: 27%;
+    background-color: white;
+    margin-top: 0px;
+}
+.services h1{
+    font-size: 60px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+@media(max-width:767px){
+    .img2{
+        margin-left: 10px;
+        width: 92%;
+    }
+    .img3{
+        margin-left: 10px;
+        width: 92%;
+    }
+    .story{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .s{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .services{
+        margin-left: 0px;
+        width: 105%;
+    }
+    }
+    @media(max-width:560px){
+    .img2 h1{
+        font-size: 40px;
+    }
+    .s h1{
+        font-size: 42px;
+    }
+    .s p{
+        font-size: 18px;
+    }
+    .s .btn{
+        margin-left: 18%;
+    }
+    }
+    @media(max-width:400px){
+        .img2 h1{
+            font-size: 30px;
+        }
+        .img2{
+            height: 430px;
+        }
+        .s h1{
+            font-size: 32px;
+            margin-top: 90px;
+        }
+        .s p{
+            font-size: 15px;
+        }
+        .s .btn{
+            margin-left: 10%;
+        }
+        .s .btn p{
+            width: 250px;
+        }
+    }
+    @media(max-width:468px){
+        .u{
+            width: 250px;
+        }
+        .our1{
+            width: 250px;
+        }
+        .our2{
+            width: 250px;
+        }
+        .u1{
+            margin-left: 30px;
+        }
+    }
+   
